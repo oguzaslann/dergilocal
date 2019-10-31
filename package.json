@@ -1,0 +1,56 @@
+{
+  "name": "zivanalocal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "startweb": "webpack-dev-server --mode development --open",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-icons": "^3.7.0",
+    "react-native": "0.61.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-router-native": "^5.1.2",
+    "redux": "^4.0.4",
+    "style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/runtime": "7.6.2",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "6.5.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.9.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "main": "index.js",
+  "author": "oguzaslan",
+  "license": "ISC",
+  "description": ""
+}
