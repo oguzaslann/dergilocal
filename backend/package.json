@@ -13,7 +13,7 @@
     "bcrypt": "^3.0.6",
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
-    "express-fileupload": "^1.1.6-alpha.5",
+    "express-fileupload": "^1.1.9",
     "ip": "^1.1.5",
     "jimp": "^0.8.4",
     "jsonwebtoken": "^8.5.1",
